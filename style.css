@@ -54,3 +54,64 @@ section.top-banner {
 .about-section h2{
     margin-bottom: 0;
 }
+.project-section{
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    overflow: hidden;
+    clear: both;
+}
+.project-section h2{
+    text-align: center;
+}
+.col_1_of_3 {
+    float: left;
+    width: 24%;
+    margin-left: 4%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+ 
+}
+.col_1_of_3 img{
+    width: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-link {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.inquiry-section{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 150px;
+  
+}
+.inquiry-col{
+    width: 100%;
+    background-image: url("images/Group.png");
+    height: 200px;
+    padding:5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+}
+.chat-button {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-image: linear-gradient(180deg,orange,rgb(240, 178, 64));
+    padding:15px 20px;
+    margin-top:70px;
+    margin-left: 50%;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+.inquiry-col h2{
+    margin-top: 60px;
+}
