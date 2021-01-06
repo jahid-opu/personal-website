@@ -45,6 +45,9 @@ section.top-banner {
 .top-banner p{
     margin-bottom: 50px;
 }
+
+/* About section */
+/* ============== */
 .about-section img {
     width: 80%;
 }
@@ -54,6 +57,9 @@ section.top-banner {
 .about-section h2{
     margin-bottom: 0;
 }
+
+/* Project section */
+/* ============== */
 .project-section{
     background-color: #E5E5E5;
     padding-top: 50px;
@@ -83,6 +89,9 @@ section.top-banner {
     display: block;
     color: black;
 }
+
+/* Contact section */
+/* ============== */
 .inquiry-section{
     padding-left: 20%;
     padding-right: 20%;
@@ -114,4 +123,25 @@ section.top-banner {
 }
 .inquiry-col h2{
     margin-top: 60px;
+}
+
+/* Services section */
+/* ============== */
+.services-section img{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.services-section h2 {
+    text-align: center;
+}
+.services-section h3{
+    text-align: center;
+}
+.services-section p{
+    text-align: center;
+}
+
+.services-section .col_1_of_3{
+    box-shadow: 10px 10px 40px gray;
 }
